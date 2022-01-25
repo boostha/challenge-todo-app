@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/app.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+
+    <div class="todo-container">
+
+      <div class="list">
+        <h1>TO DO</h1>
+        <form class="input-section">
+          <input type="text" name="todo" id="new-todo-input" placeholder="Create a new todo..">
+          <input type="submit" id="new-todo-submit" value="Add To Do">
+        </form>
+      </div>
+
+      <div class="todo-list">
+        <div class="task-container">
+          <!-- <div class="tasks">
+            <div class="task">
+              <input type="text" class="text" value="I have todo" readonly>
+            </div>
+            <div class="actions">
+              <button class="edit">edit</button>
+              <button class="delete">delete</button>
+            </div>
+          </div> -->
+        </div>
+
+        <div class="bottom-bar">
+          <div class="todo-length">
+            <p>0 items</p>
+          </div>
+          <div class="filter">
+            <p class="filter-btn bottom-bar-all bar-active">All</p>
+            <p class="filter-btn bottom-bar-active">Active</p>
+            <p class="filter-btn bottom-bar-completed">Completed</p>
+          </div>
+          <div class="clear">
+            <p class="clear-complete-btn">Clear Completed</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+</body>
+</html>
